@@ -1,0 +1,68 @@
+# Environment & Secret Files
+.env
+.env.*
+.env*.local
+*.local
+!.env.example
+!.env.sample
+
+# Certificates, Keys & Credentials
+*.pem
+*.key
+*.p12
+*.pfx
+credentials/
+secrets/
+private/
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build Outputs & Bundles
+dist/
+dist-ssr/
+build/
+target/
+out/
+
+# Testing & Coverage
+coverage/
+*.lcov
+.nyc_output
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Framework & Deployment Artifacts
+.vercel/
+supabase/.temp/
+supabase/.branches/
+
+# Python / Virtual Environments
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+
+# IDEs & System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
